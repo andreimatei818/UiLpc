@@ -1,0 +1,40 @@
+ul {
+  list-style-type: none;
+  padding-left: 130px;
+  padding-right: 500px;
+  overflow: hidden;
+  height: 50px;
+  background-color: rgba(2, 56, 113, 0.83);
+
+}
+
+li {
+  float: left;
+  color: white;
+}
+
+li a {
+  display: inline-block;
+  color: #3a4148;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+
+}
+
+li a:hover {
+  background-color: #242424;
+  color: white;
+  height: 50px;
+  top:-20px;
+}
+
+
+#list {
+  /*position: relative;*/
+  /*left: 130px;*/
+  /*right: 1000px;*/
+}
+
+

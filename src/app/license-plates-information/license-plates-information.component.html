@@ -1,0 +1,16 @@
+<app-menu-user></app-menu-user>
+<table matSort (matSortChange)="sortData($event)" matSortActive="name" matSortDirection="asc" matSortDisableClear>
+  <tr>
+    <th mat-sort-header="Id">Id</th>
+    <th mat-sort-header="carNumber">Car number</th>
+    <th mat-sort-header="date">Date</th>
+  </tr>
+
+  <tr *ngFor="let parking of sortedDataParking">
+    <td>{{parking.id}}</td>
+    <td>{{parking.carNumber}}</td>
+    <td>{{parking.date}}</td>
+  </tr>
+</table>
+
+

@@ -1,0 +1,61 @@
+#line{
+  background: rgba(2, 56, 113, 0);
+  position:absolute;
+  right: 0px;
+  height: 50px;
+  padding-right: 40px;
+  font-family: 'Open Sans', Arial, sans-serif;
+
+}
+
+#logo {
+  position: absolute;
+  width: 130px;
+  text-align: center;
+  height: 50px;
+  background-color: #607D8B;
+  /*background-color: rgba(2, 56, 113, 0.83)*/
+
+
+}
+
+#text{
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Script MT Bold";
+  /*font-family: "Yu Gothic UI Light";*/
+  color: rgb(255, 255, 255);
+}
+
+#username{
+  position: relative;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  top:8px;
+}
+
+
+
+#logout {
+  position: relative;
+  top:7px;
+  background-color: rgba(9, 0, 11, 0.5);
+  color: #ffffff;
+  font-weight: bold;
+  right: -10px;
+
+}
+
+.btn {
+  font-family: Arial;
+  /*height: 24px;*/
+}
+
+#logout:hover {
+  background: rgba(3, 3, 13, 0.92);
+  color: #eeeeee;
+}
+
